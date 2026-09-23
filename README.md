@@ -1,6 +1,6 @@
 ### ¿Cuántas filas devuelve cada consulta y por qué son distintas?
 La primera consulta `UNION` devuelve 10 registros ya se filtro por nombre_producto y existían valores repetidos eliminando el resto de columnas
-La segunda consulta UNION ALL`` devuelve solo 14 registro por que se realizo la suma de todo las filas de ambas tablas
+La segunda consulta `UNION ALL` devuelve solo 14 registro por que se realizo la suma de todo las filas de ambas tablas
 
 ### ¿Por qué UNION ALL es más eficiente que UNION?
 UNION ALL es más eficiente por que no realiza el proceso interno que hace UNION de buscar que filas son duplicadas y esto puede afectar en una base de datos que contenga muchos registros haciendo el proceso de respuesta más lento.
