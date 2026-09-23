@@ -7,8 +7,10 @@ La segunda consulta, utilizando `UNION ALL`, devuelve **14 registros**, ya que c
 ### ¿Por qué `UNION ALL` es más eficiente que `UNION`?
 
 `UNION ALL` es más eficiente porque no necesita realizar el proceso adicional de identificar y eliminar registros duplicados.
+`UNION ALL` las filas que descarta al utilizar UNION son las que tiene con nombre repetido Webcam HD 1080p,Monitor 4K 27", SSD Externo 1TB ESTAS LAS CONVIERTE EN UN SOLO ELEMENTO PARA EVITAR LOS DUPLICADOS
 
 En cambio, `UNION` debe comparar los resultados de ambas consultas para determinar qué registros están repetidos. Este proceso puede tener un mayor impacto en el rendimiento cuando se trabaja con grandes cantidades de datos.
+UNION LO QUE HACE ES MANTENER ESTOS ELEMENTOS Webcam HD 1080p,Monitor 4K 27", SSD Externo 1TB AUN QUE ESTEN DUPLICADOS AUN QUE WEBCAM TENGA DISTINTO ID
 
 ### ¿En qué casos de negocio usarías cada uno?
 
