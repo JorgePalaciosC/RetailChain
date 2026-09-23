@@ -7,7 +7,7 @@ UNION ALL es más eficiente por que no realiza el proceso interno que hace UNION
 
 ### ¿En qué casos de negocio usarías cada uno? 
 UNION: lo utilizaría en caso que se requiera saber nombres únicos de productos, ciudades, países, etc.
-UNION ALL: lo utilizaría para contabilizar el total de stock de todos los productos o bien para consolidar información dispersa.
+UNION ALL: lo utilizaría para consolidar información dispersa.
 
 ### ¿Qué pasa si las columnas de ambas consultas no coinciden en número o tipo?
 La base de datos detiene la ejecución inmediatamente y genera un error de sintaxis o de tipado.
