@@ -23,10 +23,10 @@ SELECT nombre_producto FROM inventario_sucursal_sur;
 -- Operador: UNION ALL (mantiene todos los registros incluyendo duplicados)
 
 -- [Tu consulta aquí]
-SELECT SUM(stock) AS total_stock
-FROM (SELECT stock FROM inventario_sucursal_norte
+SELECT COUNT(*) AS total_registros
+FROM (SELECT * FROM inventario_sucursal_norte
 	  UNION ALL
-	  SELECT stock FROM inventario_sucursal_sur) AS tablas_combinadas;
+	  SELECT * FROM inventario_sucursal_sur) AS tablas_combinadas;
 
 -- ── CONSULTA 3: COMPARACIÓN DE RESULTADOS ─
 -- Ejecutá estas dos consultas para comparar cuántas filas
